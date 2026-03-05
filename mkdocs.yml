@@ -12,12 +12,16 @@ theme:
   features:
     - navigation.instant
     - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
     - content.code.copy
 
 nav:
   - Home: index.md
 
   - Industry:
+      - Overview: industry/index.md
       - Basics: industry/industry-basics.md
       - Mining:
           - Basics: mining/mining-basics.md
@@ -30,6 +34,7 @@ nav:
       - Reactions: industry/reactions.md
 
   - Ships:
+      - Overview: ships/index.md
       - Frigates & Destroyers:
           - Overview: ships/frigates-destroyers/overview.md
           - Kikimora: ships/frigates-destroyers/kikimora.md
@@ -43,19 +48,24 @@ nav:
           - T1 Logistics: ships/support/t1-logistics.md
 
   - Fitting:
+      - Overview: fitting/index.md
       - Basics: fitting/fitting-basics.md
 
   - Faction-Warfare:
+      - Overview: faction-warfare/index.md
       - Basics: faction-warfare/fw-basics.md
 
   - Missions:
+      - Overview: missions/index.md
       - Basics: missions/missions-basics.md
 
   - Abyss:
+      - Overview: abyss/index.md
       - Basics: abyss/abyss-basics.md
       - Gila T4: abyss/gila-t4.md
 
   - Links:
+      - Overview: links/index.md
       - Tools: links/tools.md
 
 plugins:
@@ -66,3 +76,6 @@ markdown_extensions:
   - attr_list
   - toc:
       permalink: true
+
+extra_css:
+  - stylesheets/extra.css
