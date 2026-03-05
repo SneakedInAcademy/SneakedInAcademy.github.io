@@ -9,28 +9,60 @@ theme:
     scheme: slate
     primary: indigo
     accent: blue
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
 
 nav:
   - Home: index.md
 
-  - Abyss:
-      - Basics: abyss/basics.md
-      - Gila T4: abyss/gila-t4.md
+  - Industry:
+      - Basics: industry/industry-basics.md
+      - Mining:
+          - Basics: mining/mining-basics.md
+      - Production:
+          - Basics: production/production-basics.md
+      - Research:
+          - Basics: research/research-basics.md
+      - Planetary Interaction:
+          - Basics: planetary-interaction/pi-basics.md
+      - Reactions: industry/reactions.md
 
-  - Mining:
-      - Basics: mining/basics.md
-
-  - Production:
-      - Basics: production/basics.md
+  - Ships:
+      - Frigates & Destroyers:
+          - Overview: ships/frigates-destroyers/overview.md
+          - Kikimora: ships/frigates-destroyers/kikimora.md
+      - Beginner Cruisers:
+          - Overview: ships/beginner-cruisers/overview.md
+          - Caracal: ships/beginner-cruisers/caracal.md
+          - Rupture: ships/beginner-cruisers/rupture.md
+      - Advanced:
+          - Eagle: ships/advanced/eagle.md
+      - Support:
+          - T1 Logistics: ships/support/t1-logistics.md
 
   - Fitting:
-      - Basics: fitting/basics.md
+      - Basics: fitting/fitting-basics.md
 
   - Faction-Warfare:
       - Basics: faction-warfare/fw-basics.md
+
+  - Missions:
+      - Basics: missions/missions-basics.md
+
+  - Abyss:
+      - Basics: abyss/abyss-basics.md
+      - Gila T4: abyss/gila-t4.md
 
   - Links:
       - Tools: links/tools.md
 
 plugins:
   - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
