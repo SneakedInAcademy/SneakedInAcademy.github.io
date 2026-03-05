@@ -1,0 +1,31 @@
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Generierte Dateien
+*.log
+*.tmp
+*.cache
+.env
+.env.local
+
+# OS-spezifisch
+*.exe
