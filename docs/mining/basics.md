@@ -13,15 +13,17 @@ Viele Spieler beginnen im Highsec mit einfachem Asteroid Mining und entwickeln s
 
 ---
 
-# Einstiegsschiffe
+## Einstiegsschiffe
 
 Für neue Spieler gibt es mehrere typische Mining-Schiffe, die den Einstieg erleichtern.
 
-## Venture
+---
+
+### Venture
 
 Das **Venture** ist das klassische Einsteigerschiff für Miner.
 
-**Eigenschaften**
+#### Eigenschaften
 
 - sehr günstig
 - benötigt nur wenige Skills
@@ -29,7 +31,7 @@ Das **Venture** ist das klassische Einsteigerschiff für Miner.
 - besitzt eingebaute **Warp Core Strength**, wodurch es schwerer zu scrammen ist
 - spezieller Ore Hold für Erz
 
-**Typische Nutzung**
+#### Typische Nutzung
 
 - Einstieg ins Mining
 - Gas Mining
@@ -38,13 +40,15 @@ Das **Venture** ist das klassische Einsteigerschiff für Miner.
 
 Das Venture bleibt auch später noch relevant, besonders für **Gas Harvesting**.
 
+---
 
-## Pioneer
+### Pioneer
 
-Die **Pioneer** ist ein spezialisierter Mining-Zerstörer, der als Belohnung für die **"Fractured Legacy" Epic Arc** eingeführt wurde.  
-Sie schließt die Lücke zwischen der **Venture** und den größeren **Mining Barges** und bietet neuen Spielern eine deutlich stärkere Option für den Erzabbau im frühen Spielverlauf.
+Die **Pioneer** ist ein spezialisierter Mining-Zerstörer, der als Belohnung für die **Fractured Legacy Epic Arc** eingeführt wurde.
 
-### Eigenschaften
+Sie schließt die Lücke zwischen der **Venture** und den größeren **Mining Barges** und bietet neuen Spielern eine stärkere Option für frühen Erzabbau.
+
+#### Eigenschaften
 
 **Hoher Ertrag**
 
@@ -59,56 +63,56 @@ Sie schließt die Lücke zwischen der **Venture** und den größeren **Mining Ba
 **Spezialisierte Boni**
 
 - Bonus auf **Mining-Reichweite**
-- Unterstützung der neuen **Mining Critical Hits** Mechanik
+- Unterstützung der **Mining Critical Hits Mechanik**
 
 **Zugänglichkeit**
 
 - ideal für **Alpha-Klone**
 - benötigt keine komplexen oder hochstufigen Skills
 
-### Typische Nutzung
+#### Typische Nutzung
 
-- effizienter Erzabbau für Spieler, die noch **keine Mining Barges** fliegen können
+- effizienter Erzabbau ohne Zugriff auf Mining Barges
 - Abschluss der **Fractured Legacy Missionen**
-- sicherer Erzabbau im **Highsec** mit einem für Zerstörer soliden Tank
+- sicherer Erzabbau im **Highsec**
 
-### Hinweis
+#### Hinweis
 
 Während die **Venture** weiterhin das beste Einsteigerschiff für **Gas Mining** bleibt, ist die **Pioneer** aktuell die stärkere Wahl für **reinen Erzabbau im frühen Spielverlauf**.
 
 ---
 
-## Retriever
+### Retriever
 
-Der **Retriever** gehört zu den sogenannten **Mining Barges**.
+Der **Retriever** gehört zu den **Mining Barges**.
 
-**Eigenschaften**
+#### Eigenschaften
 
 - sehr großer Ore Hold
 - lange Mining-Zeit ohne Station anzufliegen
 - relativ schwacher Tank
 
-**Typische Nutzung**
+#### Typische Nutzung
 
 - entspanntes Highsec Mining
 - Mining mit einem einzelnen Account
 - Mining ohne permanentes Micromanagement
 
-Der Retriever ist besonders beliebt bei Spielern, die **längere Mining-Zyklen ohne häufiges Entladen** bevorzugen.
+Der Retriever ist besonders beliebt bei Spielern, die **lange Mining-Zyklen ohne häufiges Entladen** bevorzugen.
 
 ---
 
-## Covetor
+### Covetor
 
 Der **Covetor** ist ebenfalls ein Mining Barge, fokussiert sich jedoch vollständig auf maximalen **Yield**.
 
-**Eigenschaften**
+#### Eigenschaften
 
 - sehr hoher Mining-Output
 - kleiner Ore Hold
 - schwacher Tank
 
-**Typische Nutzung**
+#### Typische Nutzung
 
 - aktives Mining
 - Mining mit Unterstützung durch eine **Orca** oder **Porpoise**
@@ -118,11 +122,13 @@ Viele Spieler wechseln vom **Retriever** auf den **Covetor**, wenn sie aktiver s
 
 ---
 
-# Wichtige Begriffe
+## Wichtige Begriffe
 
 Beim Mining tauchen einige Begriffe immer wieder auf.
 
-## Yield
+---
+
+### Yield
 
 **Yield** beschreibt die Menge an Erz, die ein Mining-Modul pro Zyklus abbaut.
 
@@ -132,29 +138,28 @@ Der Yield hängt unter anderem ab von:
 - Mining-Module (Mining Laser / Strip Miner)
 - Skills
 - Mining Crystals
-- Mining-Boosts
+- Mining Boosts
 - Implantate
 
 Ein höherer Yield bedeutet mehr Erz pro Zyklus und somit mehr Einkommen.
 
 ---
 
-## Waste
+### Waste
 
 **Waste** beschreibt Erz, das beim Mining zerstört wird.
 
 Das bedeutet:  
 Ein Teil des Asteroiden verschwindet, ohne dass der Miner dieses Erz erhält.
 
-**Beispiel**
+#### Beispiel
 
 - 100 Einheiten Erz werden abgebaut
 - zusätzlich 30 Einheiten werden als Waste zerstört
 
 Der Asteroid verliert also **130 Einheiten**, obwohl du nur **100 Einheiten erhältst**.
 
-Waste wurde eingeführt, um Mining-Module und Mining-Kristalle stärker zu differenzieren.  
-Einige Module haben höheren Yield, erzeugen aber auch mehr Waste.
+Waste wurde eingeführt, um Mining-Module und Mining-Kristalle stärker zu differenzieren. Einige Module haben höheren Yield, erzeugen aber auch mehr Waste.
 
 ---
 
@@ -178,7 +183,7 @@ Mining in einer gut organisierten Flotte ist daher deutlich effizienter als Solo
 
 ---
 
-# Zusammenfassung
+## Zusammenfassung
 
 Mining ist eine einfache, aber skalierbare Aktivität in EVE Online.
 

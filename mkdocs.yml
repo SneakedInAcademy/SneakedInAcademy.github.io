@@ -23,6 +23,12 @@ nav:
   - Production:
       - Basics: production/basics.md
 
+  - Fitting:
+      - Basics: fitting/basics.md
+
+  - Faction-Warfare:
+      - Basics: faction-warfare/fw-basics.md
+
   - Links:
       - Tools: links/tools.md
 
