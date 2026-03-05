@@ -20,12 +20,23 @@ build/
 node_modules/
 npm-debug.log
 
+
 # Generierte Dateien
 *.log
 *.tmp
 *.cache
+*.js
+*.html
+*.css
+*.map
+sitemap.xml
+sitemap.xml.gz
+favicon.ico
+favicon.png
+search_index.json
 .env
 .env.local
+
 
 # OS-spezifisch
 *.exe
