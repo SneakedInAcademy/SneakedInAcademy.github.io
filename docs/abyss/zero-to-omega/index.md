@@ -1,22 +1,21 @@
-# Zero to Omega Abyss Guide
+# Zero to Omega
 
-Dieser Guide führt dich Schritt für Schritt durch die Abyss-Tiers, von den niedrigeren Stufen bis zu den höchsten: Zero und Omega.
+In diesem Bereich dokumentiere ich einen Selbstversuch mit einem **frischen Charakter**, um zu testen, ob sich ein Account über **Abyssal Deadspace** ab **Monat 2** selbst durch **PLEX** finanzieren kann.
 
-Abyss ist riskant, aber die Belohnungen sind enorm. Stelle sicher, dass du gut vorbereitet bist.
+Der Test startet bewusst nicht komplett bei null, sondern mit einem kleinen Anschub:
 
----
+- **50 Millionen ISK Startkapital**
+- **Omega-Status im ersten Monat**
 
-## Übersicht der Tiers
+Das Ziel ist, dem Charakter einen realistischen Einstieg zu geben, ohne direkt auf große Alt- oder Hauptchar-Unterstützung zurückzugreifen.
 
-- **T1-T3**: Einfache Runs, gut für Anfänger.
-- **T4-T5**: Mittelschwer, erfordern bessere Fittings.
-- **T6 (Zero/Omega)**: Extrem schwer, aber mit den besten Drops.
+Ab **Monat 2** soll der Account dann genug ISK erwirtschaften, um den benötigten PLEX für den nächsten Omega-Monat selbst zu verdienen.
 
----
+Der Fokus dieses Selbstversuchs liegt darauf zu zeigen:
 
-## Schritte
+- wie realistisch dieser Weg für einen frischen Charakter ist
+- welche Schiffe, Fits und Tiers dafür sinnvoll sind
+- wie sich Einkommen, Risiko und Fortschritt entwickeln
+- wo die größten Hürden auf dem Weg zu einem selbsttragenden Abyss-Charakter liegen
 
-- [Schritt 1: Vorbereitung](step1.md)
-- [Schritt 2: T1-T3 meistern](step2.md)
-- [Schritt 3: T4-T5 angehen](step3.md)
-- [Schritt 4: Zero und Omega erreichen](step4.md)
+Dieser Bereich ist also kein reiner Theorie-Guide, sondern ein laufender Praxisversuch mit echten Ergebnissen, Anpassungen und Erfahrungen.
