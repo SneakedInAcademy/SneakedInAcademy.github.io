@@ -19,7 +19,6 @@ theme:
 
 nav:
   - Home: index.md
-
   - Industry:
       - Basics: industry/index.md
       - Mining:
