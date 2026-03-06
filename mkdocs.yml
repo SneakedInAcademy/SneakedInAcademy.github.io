@@ -21,10 +21,9 @@ nav:
   - Home: index.md
 
   - Industry:
-      - Overview: industry/index.md
       - Basics: industry/industry-basics.md
       - Mining:
-          - Overview: industry/mining/mining-basics.md
+          - Basics: industry/mining/mining-basics.md
           - Ores: industry/mining/ores.md
           - Ice: industry/mining/ice.md
           - Gas: industry/mining/gas.md
