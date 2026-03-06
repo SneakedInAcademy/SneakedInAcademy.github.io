@@ -12,9 +12,9 @@ Alles rund um Ressourcen und Produktion.
 - [Mining – Ores](industry/mining/ores.md)
 - [Mining – Ice](industry/mining/ice.md)
 - [Mining – Gas](industry/mining/gas.md)
-- [Production Basics](production/index.md)
-- [Research Basics](research/index.md)
-- [Planetary Interaction Basics](planetary-interaction/index.md)
+- [Production Basics](industry/production/index.md)
+- [Research Basics](industry/research/index.md)
+- [Planetary Interaction Basics](industry/planetary-interaction/index.md)
 - [Reactions](industry/reactions.md)
 
 ---

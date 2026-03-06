@@ -28,11 +28,11 @@ nav:
           - Gas: industry/mining/gas.md
           - Critical-Hit Mining: industry/mining/mining-critical-hits.md
       - Production:
-          - Basics: production/index.md
+          - Basics: industry/production/index.md
       - Research:
-          - Basics: research/index.md
+          - Basics: industry/research/index.md
       - Planetary Interaction:
-          - Basics: planetary-interaction/index.md
+          - Basics: industry/planetary-interaction/index.md
       - Reactions: industry/reactions.md
 
   - Ships:

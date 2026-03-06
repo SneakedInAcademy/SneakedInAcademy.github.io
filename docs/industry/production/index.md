@@ -108,7 +108,7 @@ Erfolgreiche Produzenten achten daher auf:
 
 Wenn du tiefer in einzelne Bereiche einsteigen möchtest:
 
-- [Industry Basics](../industry/index.md)
+- [Industry Basics](../index.md)
 - [Research Basics](../research/index.md)
 - [Planetary Interaction](../planetary-interaction/index.md)
-- [Reactions](../industry/reactions.md)
+- [Reactions](../reactions.md)

@@ -101,7 +101,7 @@ Viele Spieler betreiben mehrere Planeten gleichzeitig, um ihre Produktionskapazi
 
 ## Weiterführende Themen
 
-- [Industry Basics](../industry/index.md)
+- [Industry Basics](../index.md)
 - [Production Basics](../production/index.md)
 - [Research Basics](../research/index.md)
-- [Reactions](../industry/reactions.md)
+- [Reactions](../reactions.md)
