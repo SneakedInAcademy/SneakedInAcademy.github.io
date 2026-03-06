@@ -95,7 +95,7 @@ Viele Spieler spezialisieren sich auf einzelne Teile dieser Kette, während ande
 Wenn du tiefer in einzelne Bereiche einsteigen möchtest, findest du hier detailliertere Guides:
 
 - [Mining](mining/ores.md)
-- [Production Basics](../production/production-basics.md)
-- [Research Basics](../research/research-basics.md)
-- [Planetary Interaction](../planetary-interaction/pi-basics.md)
+- [Production Basics](../production/index.md)
+- [Research Basics](../research/index.md)
+- [Planetary Interaction](../planetary-interaction/index.md)
 - [Reactions](reactions.md)
