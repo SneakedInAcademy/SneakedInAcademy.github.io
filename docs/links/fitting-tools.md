@@ -1,5 +1,5 @@
 ## Fitting
 
-- https://www.eveworkbench.com
-- https://pyfa-org.github.io
-- https://github.com/pyfa-org/Pyfa
+- [Eve Workbench](https://www.eveworkbench.com)
+- [Pyfa](https://pyfa-org.github.io)
+- [Pyfa GitHub](https://github.com/pyfa-org/Pyfa)

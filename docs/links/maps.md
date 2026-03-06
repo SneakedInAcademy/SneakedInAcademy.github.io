@@ -1,5 +1,5 @@
 ## Karten
 
-- https://evemaps.dotlan.net
-- https://anoik.is
-- https://pathfinder.eve-linknet.com/
+- [Dotlan EVE Maps](https://evemaps.dotlan.net)
+- [Anoikis](https://anoik.is)
+- [Pathfinder](https://pathfinder.eve-linknet.com/)
