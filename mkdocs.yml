@@ -1,7 +1,7 @@
 site_name: Sneaked In Academy Guides
 site_description: Guides and resources for EVE Online players
 site_author: Sneaked In
-site_url: https://puncho-1.github.io/SneakedInAcademy/
+site_url: https://SneakedInAcademy.github.io/SneakedInAcademy/
 
 theme:
   name: material
@@ -72,6 +72,13 @@ nav:
       - Basics: abyss/abyss-basics.md
       - Rupture: abyss/rupture.md
       - Gila T4: abyss/gila-t4.md
+      - zero-to-omega:
+            - Overview: abyss/zero-to-omega/index.md
+            - Step 1: abyss/zero-to-omega/step1.md
+            - Step 2: abyss/zero-to-omega/step2.md
+            - Step 3: abyss/zero-to-omega/step3.md
+            - Step 4: abyss/zero-to-omega/step4.md
+            - Step 5: abyss/zero-to-omega/step5.md
 
   - Links:
       - Overview: links/index.md
