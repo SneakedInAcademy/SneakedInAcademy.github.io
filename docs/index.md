@@ -55,9 +55,9 @@ Grundlagen und Fits, nach Einsatzgebiet geordnet.
 
 ### Abyss
 
-- [Abyss Basics](abyss/abyss-basics.md)
-- [Rupture Abyss Guide](abyss/rupture.md)
-- [Gila T4 Guide](abyss/gila-t4.md)
+- [Abyss Basics](abyss/index.md)
+- [Solo Abyss Fits](fittings/abyss/single/index.md)
+- [Gila T4 Guide](fittings/abyss/single/gila-t4.md)
 
 ---
 
