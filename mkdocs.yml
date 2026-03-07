@@ -104,9 +104,6 @@ nav:
 
   - Abyss:
       - Overview: abyss/index.md
-      - Basics: abyss/index.md
-      - Solo Fits: fittings/abyss/single/index.md
-      - Gila T4: fittings/abyss/single/gila-t4.md
       - zero-to-omega:
             - Overview: abyss/zero-to-omega/index.md
             - Step 1: abyss/zero-to-omega/step1.md
