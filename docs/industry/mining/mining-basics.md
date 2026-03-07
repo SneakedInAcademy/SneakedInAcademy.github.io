@@ -11,6 +11,12 @@ Viele Spieler beginnen im Highsec mit einfachem Asteroid Mining und entwickeln s
 - Ice Mining
 - Gas Harvesting
 
+Passend dazu geht es hier weiter mit den wichtigsten Rohstoffarten:
+
+- [Ores](ores.md)
+- [Ice](ice.md)
+- [Gas](gas.md)
+
 ---
 
 ## Überblick

@@ -1,6 +1,6 @@
 # Ores
 
-**Ore** ist die wichtigste Rohstoffquelle für klassisches Mining in EVE Online.
+**Ore** ist die wichtigste Rohstoffquelle für klassisches Mining in **EVE Online**.
 
 Beim Ore Mining werden Asteroiden abgebaut, das Erz anschließend **reprocessiert** und in **Mineralien** umgewandelt. Diese Mineralien werden dann für Industrie, Produktion und den Verkauf genutzt.
 
@@ -27,11 +27,13 @@ Diese Seite behandelt nur **klassisches Ore Mining**.
 
 Nicht jede Sicherheitszone enthält dieselben Erze.
 
+Ganz grob gilt:
+
 | Raumtyp | Typische Ores |
 |---|---|
 | Highsec | einfache und häufige Standard-Ores |
 | Lowsec | wertvollere Ores mit höherem Risiko |
-| Nullsec | seltene und besonders wertvolle Ores |
+| Nullsec | seltenere und besonders wertvolle Ores |
 
 Für eine Highsec Academy sind vor allem die frühen Standard-Ores wichtig.
 
@@ -41,24 +43,26 @@ Für eine Highsec Academy sind vor allem die frühen Standard-Ores wichtig.
 
 Die wichtigsten normalen Ore-Familien sind:
 
-| Ore-Familie | Typischer Raum |
+| Ore-Familie | Typischer Bereich |
 |---|---|
-| Veldspar | Highsec |
-| Scordite | Highsec |
-| Pyroxeres | Highsec |
-| Plagioclase | Highsec |
-| Omber | Highsec / Lowsec |
-| Kernite | Lowsec |
-| Jaspet | Lowsec |
-| Hemorphite | Lowsec |
-| Hedbergite | Lowsec |
-| Gneiss | Nullsec |
-| Dark Ochre | Nullsec |
-| Spodumain | Nullsec |
-| Crokite | Nullsec |
-| Bistot | Nullsec |
-| Arkonor | Nullsec |
+| Veldspar | früher Einstieg, häufig |
+| Scordite | früher Einstieg |
+| Pyroxeres | frühe bis mittlere Standard-Ores |
+| Plagioclase | frühe bis mittlere Standard-Ores |
+| Omber | je nach Gebiet und Anomalien relevant |
+| Kernite | eher wertvoller als typische frühe Highsec-Ores |
+| Jaspet | fortgeschrittener |
+| Hemorphite | fortgeschrittener |
+| Hedbergite | fortgeschrittener |
+| Gneiss | späterer / wertvollerer Bereich |
+| Dark Ochre | späterer / wertvollerer Bereich |
+| Spodumain | späterer / wertvollerer Bereich |
+| Crokite | späterer / wertvollerer Bereich |
+| Bistot | späterer / wertvollerer Bereich |
+| Arkonor | späterer / wertvollerer Bereich |
 | Mercoxit | spezieller, fortgeschrittener Abbau |
+
+Diese Liste ist als **Orientierung für Anfänger** gedacht, nicht als vollständige regionale Spawn-Tabelle.
 
 ---
 
@@ -72,7 +76,7 @@ Für neue Spieler im Highsec sind vor allem diese Ores relevant:
 | Scordite | typisches Anfänger-Erz |
 | Pyroxeres | nächster Schritt zu etwas wertvolleren Ores |
 | Plagioclase | oft eine sinnvolle Highsec-Option |
-| Omber | seltener und nicht überall gleich relevant |
+| Omber | situationsabhängig, nicht überall gleich relevant |
 
 Für Anfänger zählt meist nicht nur der theoretische Marktwert, sondern auch:
 
@@ -85,48 +89,52 @@ Für Anfänger zählt meist nicht nur der theoretische Marktwert, sondern auch:
 
 ## Ore-Varianten
 
-Fast jede Ore-Familie besitzt Varianten mit besserem Ertrag.
+Die alten Variantennamen wie **Concentrated**, **Dense**, **Golden** oder **Fiery** sind heute für die aktuelle Darstellung von Ore-Varianten nicht mehr der richtige Standard.
+
+Stattdessen wird heute mit **Grade-Bezeichnungen** gearbeitet.
+
+Typisch ist heute also eher:
 
 | Variante | Bedeutung |
 |---|---|
-| Basisvariante | normaler Ertrag |
-| bessere Variante | mehr Ausbeute beim Reprocessing |
-| beste Variante | höchste Ausbeute innerhalb der Familie |
+| Basisvariante | normales Erz |
+| II-Grade | bessere Variante |
+| III-Grade | noch bessere Variante |
 
-Bekannte Beispiele:
+Beispiele:
 
-| Ore-Familie | Varianten |
+| Ore-Familie | Aktuelle Darstellung |
 |---|---|
-| Veldspar | Veldspar, Concentrated Veldspar, Dense Veldspar, Stable Veldspar |
-| Scordite | Scordite, Condensed Scordite, Massive Scordite, Glossy Scordite |
-| Pyroxeres | Pyroxeres, Solid Pyroxeres, Viscous Pyroxeres, Opulent Pyroxeres |
-| Plagioclase | Plagioclase, Azure Plagioclase, Rich Plagioclase, Sparkling Plagioclase |
+| Veldspar | Veldspar, Veldspar II-Grade, Veldspar III-Grade |
+| Scordite | Scordite, Scordite II-Grade, Scordite III-Grade |
+| Pyroxeres | Pyroxeres, Pyroxeres II-Grade, Pyroxeres III-Grade |
+| Plagioclase | Plagioclase, Plagioclase II-Grade, Plagioclase III-Grade |
 
-Im Normalfall gilt:
+Im Grundsatz gilt weiterhin:
 
-- bessere Varianten liefern mehr
-- sie sind oft etwas seltener
-- sie lohnen sich meist mehr als die Basisvariante derselben Familie
+- bessere Grade liefern mehr Ertrag innerhalb derselben Ore-Familie
+- sie sind oft interessanter als die Basisvariante derselben Familie
+- für Anfänger reicht es meist, sich zu merken: **höherer Grade = bessere Variante derselben Ore-Familie**
 
 ---
 
 ## Ore-Tiers und Mining Crystals
 
-Seit den Mining-Änderungen werden Ores auch in **Crystal-Gruppen** zusammengefasst.
+Seit den neueren Mining-Änderungen werden Ores stärker über **Ore-Familien**, **Tiers** und passende **Crystal-Gruppen** zusammengefasst.
 
-Ein wichtiges Beispiel:
+Das ist vor allem deshalb praktisch, weil Mining Crystals heute nicht mehr nur wie ein reines Einzelore-System wirken, sondern stärker entlang dieser Familien und Gruppen organisiert sind.
 
-| Crystal-Gruppe | Unterstützte Ores |
-|---|---|
-| Common Ore Crystal | Veldspar, Scordite, Pyroxeres, Plagioclase |
-
-Das ist besonders praktisch, weil man nicht mehr für jedes einzelne einfache Erz einen komplett eigenen Kristall braucht.
-
-Für neue Spieler bedeutet das vor allem:
+Für Anfänger bedeutet das vor allem:
 
 - einfachere Orientierung
-- weniger Verwirrung bei Crystals
-- schnellere Spezialisierung auf typische Highsec-Ores
+- weniger alte Sondernamen
+- klarere Einordnung von Ores und Crystals
+- leichtere Spezialisierung auf typische Einstiegserze
+
+Für eine Academy-Seite reicht meist die einfache Regel:
+
+> Nicht jede Ore-Familie braucht gedanklich ihr eigenes komplett separates System.  
+> Heute ist die Einordnung stärker gruppiert als früher.
 
 ---
 
@@ -137,7 +145,7 @@ Für eine Highsec Academy ist diese einfache Regel meist sinnvoll:
 | Priorität | Empfehlung |
 |---|---|
 | 1 | Ores minen, die leicht und sicher erreichbar sind |
-| 2 | auf gute Varianten derselben Ore-Familie achten |
+| 2 | auf bessere Grade derselben Ore-Familie achten |
 | 3 | erst später auf perfekte Marktoptimierung achten |
 
 Gerade am Anfang sind diese Punkte meist wichtiger als komplizierte ISK-pro-m³-Rechnungen:
@@ -173,6 +181,6 @@ Für neue Spieler sind vor allem diese Punkte wichtig:
 
 - Highsec enthält die typischen Einsteiger-Ores
 - Veldspar, Scordite, Pyroxeres und Plagioclase sind die wichtigsten frühen Ore-Familien
-- bessere Ore-Varianten liefern mehr Ertrag
-- Ore Crystals arbeiten heute stärker mit Gruppen statt nur mit einzelnen Ores
+- bessere Ore-Varianten werden heute über **Grade-Bezeichnungen** dargestellt
+- Ore und Crystals sind heute stärker gruppiert als früher
 - am Anfang zählen Sicherheit und einfache Verfügbarkeit oft mehr als perfekte Theorieoptimierung
