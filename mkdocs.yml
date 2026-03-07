@@ -18,21 +18,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Industry:
-      - Basics: industry/index.md
-      - Mining:
-          - Basics: industry/mining/mining-basics.md
-          - Ores: industry/mining/ores.md
-          - Ice: industry/mining/ice.md
-          - Gas: industry/mining/gas.md
-          - Critical-Hit Mining: industry/mining/mining-critical-hits.md
-      - Production:
-          - Basics: industry/production/index.md
-      - Research:
-          - Basics: industry/research/index.md
-      - Planetary Interaction:
-          - Basics: industry/planetary-interaction/index.md
-      - Reactions: industry/reactions.md
 
   - Ships:
       - Overview: ships/index.md
@@ -87,10 +72,6 @@ nav:
           - Overview: fittings/hauler/index.md
           - Fast Align: fittings/hauler/fast-align.md
 
-  - Faction-Warfare:
-      - Overview: faction-warfare/index.md
-      - Basics: faction-warfare/fw-basics.md
-
   - Missions:
       - Overview: missions/index.md
       - Security: missions/security.md
@@ -100,15 +81,6 @@ nav:
           - Overview: missions/epic-arcs/index.md
           - The Blood-Stained Stars: missions/epic-arcs/the-blood-stained-stars.md
           - Empire Epic Arcs: missions/epic-arcs/empire-epic-arcs.md
-
-  - Abyss:
-      - Overview: abyss/index.md
-      - zero-to-omega:
-            - Overview: abyss/zero-to-omega/index.md
-            - Step 1: abyss/zero-to-omega/step1.md
-            - Step 2: abyss/zero-to-omega/step2.md
-            - Step 3: abyss/zero-to-omega/step3.md
-            - Step 4: abyss/zero-to-omega/step4.md
 
   - Exploration:
       - Overview: exploration/index.md
@@ -120,6 +92,35 @@ nav:
       - Overview: wormholes/index.md
       - Basics: wormholes/basics.md
       - Safety: wormholes/safety.md
+
+  - Abyss:
+      - Overview: abyss/index.md
+      - zero-to-omega:
+            - Overview: abyss/zero-to-omega/index.md
+            - Step 1: abyss/zero-to-omega/step1.md
+            - Step 2: abyss/zero-to-omega/step2.md
+            - Step 3: abyss/zero-to-omega/step3.md
+            - Step 4: abyss/zero-to-omega/step4.md
+
+  - Faction Warfare:
+      - Overview: faction-warfare/index.md
+      - Basics: faction-warfare/fw-basics.md
+
+  - Industry:
+      - Basics: industry/index.md
+      - Mining:
+          - Basics: industry/mining/mining-basics.md
+          - Ores: industry/mining/ores.md
+          - Ice: industry/mining/ice.md
+          - Gas: industry/mining/gas.md
+          - Critical-Hit Mining: industry/mining/mining-critical-hits.md
+      - Production:
+          - Basics: industry/production/index.md
+      - Research:
+          - Basics: industry/research/index.md
+      - Planetary Interaction:
+          - Basics: industry/planetary-interaction/index.md
+      - Reactions: industry/reactions.md
 
   - Links:
       - Overview: links/index.md
