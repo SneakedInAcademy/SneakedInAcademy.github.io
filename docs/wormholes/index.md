@@ -161,10 +161,11 @@ Gerade am Anfang ist es oft besser, Wormholes als Lernumgebung zu sehen und nich
 
 ## Hauptthemen
 
-- [Wormhole Basics](basics.md)
-- [Wormhole Exploration](exploration.md)
-- [Gas in Wormholes](gas.md)
-- [Wormhole Safety](safety.md)
+- [Wurmloch Basics](basics.md)
+- [Exploration Overview](../exploration/index.md)
+- [Scanning](../exploration/scanning.md)
+- [Gas Harvesting Basics](../industry/mining/gas.md)
+- [Wurmloch Safety](safety.md)
 
 ---
 
