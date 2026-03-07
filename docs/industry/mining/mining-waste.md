@@ -48,7 +48,7 @@ Einfach gesagt:
 
 ---
 
-# Was Waste praktisch bedeutet
+## Was Waste praktisch bedeutet
 
 ## Ohne Waste
 
@@ -86,7 +86,7 @@ Das ist der Kern der Mechanik:
 
 ---
 
-# Wo Waste aktuell relevant ist
+## Wo Waste aktuell relevant ist
 
 Waste / Residue ist aktuell ausdrücklich relevant bei:
 
@@ -101,7 +101,7 @@ Gerade deshalb ist Waste eine wichtige eigene Mechanik und nicht nur ein Nebenef
 
 ---
 
-# Warum Waste wichtig ist
+## Warum Waste wichtig ist
 
 Waste ist besonders relevant, wenn:
 
@@ -117,7 +117,7 @@ In kleinen oder großen Flotten kann Waste darüber entscheiden, ob ein Feld:
 
 ---
 
-# Beispiele für die Praxis
+## Beispiele für die Praxis
 
 ## Beispiel 1 – sauberer Abbau
 
@@ -214,7 +214,7 @@ Die Flotte bekommt also **nicht mehr**, aber das Feld ist doppelt so schnell lee
 
 ---
 
-# Waste und Effizienz
+## Waste und Effizienz
 
 Waste ist vor allem eine **Effizienzfrage**.
 
@@ -234,7 +234,7 @@ Deshalb ist Waste besonders wichtig für:
 
 ---
 
-# Kristalle und Waste
+## Kristalle und Waste
 
 Kristalle geben Yield-Boni, bringen aber oft auch Residue mit sich.
 
@@ -248,7 +248,7 @@ Wenn man möglichst materialschonend minen will, sind **T1/Faction Strip Miners*
 
 ---
 
-# Waste und Mining Drones
+## Waste und Mining Drones
 
 Waste betrifft nicht nur Strip Miner und Kristalle.
 
@@ -258,7 +258,7 @@ Das ist wichtig, weil viele Spieler bei Waste zuerst nur an Kristall-Setups denk
 
 ---
 
-# Für Nerds: Waste technisch
+## Für Nerds: Waste technisch
 
 ## Variablen
 
@@ -547,7 +547,7 @@ Das zeigt sehr schön:
 
 ---
 
-# Waste und Boosts
+## Waste und Boosts
 
 ## Was Porpoise und Orca tun
 
@@ -616,7 +616,7 @@ Das heißt:
 
 ---
 
-# Waste in Flotten
+## Waste in Flotten
 
 Waste ist besonders in Flotten wichtig, weil dort nicht nur dein eigener Hold zählt, sondern die Frage:
 
@@ -631,7 +631,7 @@ Gerade auf wertvollen Feldern ist es oft sinnvoll, Waste bewusst zu begrenzen.
 
 ---
 
-# Wann man Waste eher vermeiden will
+## Wann man Waste eher vermeiden will
 
 Waste sollte man eher vermeiden, wenn:
 
@@ -643,7 +643,7 @@ Waste sollte man eher vermeiden, wenn:
 
 ---
 
-# Wann Spieler Waste eher akzeptieren
+## Wann Spieler Waste eher akzeptieren
 
 Waste wird eher akzeptiert, wenn:
 
@@ -655,7 +655,7 @@ Waste wird eher akzeptiert, wenn:
 
 ---
 
-# Häufige Denkfehler
+## Häufige Denkfehler
 
 ## Denkfehler 1 – „Waste erhöht meinen Yield“
 
@@ -684,7 +684,7 @@ Bestimmte Bursts können Waste entschärfen, aber nicht automatisch vollständig
 
 ---
 
-# Zusammenfassung für Anfänger
+## Zusammenfassung für Anfänger
 
 Wenn du es ganz einfach erklären willst:
 
@@ -700,7 +700,7 @@ Oder noch kürzer:
 
 ---
 
-# Kurzfazit
+## Kurzfazit
 
 **Mining Waste / Residue** ist eine Mechanik, bei der zusätzlich Material aus einem Vorkommen entfernt wird, ohne in deinem Hold zu landen.
 
