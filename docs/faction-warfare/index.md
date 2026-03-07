@@ -36,6 +36,23 @@ Diese beiden Konflikte bilden die klassischen FW-Warzones in Lowsec.
 
 ---
 
+## Pirate Insurgencies
+
+Neben der klassischen **Empire Faction Warfare** gibt es inzwischen auch **Pirate Insurgencies**.
+
+Dabei können sich Spieler mit den **Angel Cartel** oder den **Guristas Pirates** verbünden und in den Warzones der Empire-Fraktionen kämpfen.
+
+Diese Pirate-Gameplay-Schiene gehört zum erweiterten **Faction Warfare-Ökosystem**, funktioniert aber nicht einfach wie eine zusätzliche normale Empire-Miliz.
+
+| Piratenfraktion | Zielgebiet |
+|---|---|
+| Angel Cartel | Amarr-Minmatar Warzone |
+| Guristas Pirates | Caldari-Gallente Warzone |
+
+Pirate Insurgencies bringen zusätzliche Ziele, Belohnungen und Spielmechaniken in die Warzones und erweitern das klassische FW-System um einen weiteren Konfliktlayer.
+
+---
+
 ## Wie man teilnimmt
 
 | Möglichkeit | Beschreibung |
