@@ -13,7 +13,6 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.expand
     - navigation.top
     - content.code.copy
 
