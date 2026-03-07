@@ -132,6 +132,7 @@ Oft reicht es, zuerst einen kleinen Teil gut zu verstehen.
 In diesem Bereich findest du Grundlagen zu wichtigen Industry-Themen wie:
 
 - Mining
+- Mining Waste / Residue
 - Production
 - Research
 - Reactions
