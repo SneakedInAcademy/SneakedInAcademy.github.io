@@ -1,0 +1,6794 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Guides and resources for EVE Online players">
+      
+      
+        <meta name="author" content="Sneaked In">
+      
+      
+        <link rel="canonical" href="https://sneakedinacademy.github.io/getting-started/fleet-commands/">
+      
+      
+        <link rel="prev" href="../d-scan-basics/">
+      
+      
+        <link rel="next" href="../fleet-discipline/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
+    
+    
+      
+        <title>Flottenbefehle - Sneaked In Academy Guides</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#typische-flottenbefehle" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Sneaked In Academy Guides" class="md-header__button md-logo" aria-label="Sneaked In Academy Guides" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Sneaked In Academy Guides
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Flottenbefehle
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../ships/" class="md-tabs__link">
+          
+  
+  
+  Ships
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fittings/" class="md-tabs__link">
+          
+  
+  
+  Fitting
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../missions/" class="md-tabs__link">
+          
+  
+  
+  Missions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../exploration/" class="md-tabs__link">
+          
+  
+  
+  Exploration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../wormholes/" class="md-tabs__link">
+          
+  
+  
+  Wormholes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../abyss/" class="md-tabs__link">
+          
+  
+  
+  Abyss
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../faction-warfare/" class="md-tabs__link">
+          
+  
+  
+  Faction Warfare
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../industry/" class="md-tabs__link">
+          
+  
+  
+  Industry
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../links/" class="md-tabs__link">
+          
+  
+  
+  Links
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Sneaked In Academy Guides" class="md-nav__button md-logo" aria-label="Sneaked In Academy Guides" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Sneaked In Academy Guides
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../magic-14-light/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic 14 Light
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basic-skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wichtige Skills erklärt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../d-scan-basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    D-Scan Nutzung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flottenbefehle
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flottenbefehle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#grundregel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grundregel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#align" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Align
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#warp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warp
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#warp-at-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warp at 0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#warp-at-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warp at range
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jump" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jump
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hold" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hold
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hold-cloak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hold cloak
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#break-cloak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Break cloak
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anchor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anchor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#orbit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orbit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keep-at-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Keep at range
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Approach
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#burn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Burn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#burn-back" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Burn back
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prop-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prop on
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prop-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prop off
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mwd-on-ab-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MWD on / AB on
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stop
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jump-on-contact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jump on contact
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#take-gate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Take gate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hold-on-gate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hold on gate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broadcast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Broadcast
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broadcast-for-reps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Broadcast for reps
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yellow-box" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Yellow box
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#red-box" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red box
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#primary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Primary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secondary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Secondary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tertiary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tertiary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Switch
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lock-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lock up
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#point" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Point
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scram
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tackle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tackle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spread-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spread points
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tackle-the-pod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tackle the pod
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overheat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overheat
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overheat-prop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overheat prop
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overheat-guns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overheat guns
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deaggress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deaggress
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disengage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disengage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regroup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regroup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bounce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bounce
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crash-gate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crash gate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check check
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hold-comms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hold comms
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free fire
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cease-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cease fire
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-burn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free burn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Desti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kurzfassung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kurzfassung
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fleet-discipline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flottenverhalten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../interceptor-skillplan-light/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interceptor Skillplan Light
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mining-light/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mining Skillplan Light
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ships
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ships
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ships/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frigates & Destroyers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Frigates & Destroyers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ships/frigates-destroyers/kikimora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kikimora
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beginner Cruisers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Beginner Cruisers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ships/beginner_cruisers/caracal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caracal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ships/beginner_cruisers/rupture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rupture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Advanced
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ships/advanced/eagle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eagle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Support
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Support
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ships/support/t1-logistics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    T1 Logistics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fitting
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fitting
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Faction Warfare
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Faction Warfare
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/faction-warfare/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/faction-warfare/slasher-fw/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Slasher FW
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abyss
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Abyss
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/abyss/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3_2" id="__nav_4_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Single
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/abyss/single/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/abyss/single/gila-t4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gila T4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3_3" id="__nav_4_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Duo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Duo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/abyss/duo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3_4" id="__nav_4_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Trio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/abyss/trio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Missions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Missions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/missions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4_2" id="__nav_4_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Security
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Security
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/missions/security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/missions/security/caracal-l2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caracal L2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4_3" id="__nav_4_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Distribution
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Distribution
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/missions/distribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4_4" id="__nav_4_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mining
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mining
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/missions/mining/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mining
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mining
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/mining/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5_2" id="__nav_4_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frigates
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Frigates
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/mining/frigates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/mining/frigates/venture-highsec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Venture Highsec
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5_3" id="__nav_4_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Destroyers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Destroyers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/mining/destroyers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5_4" id="__nav_4_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barges
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Barges
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/mining/barges/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5_5" id="__nav_4_5_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exhumers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Exhumers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/mining/exhumers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Logistics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Logistics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/logistics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/logistics/t1-logi-basic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    T1 Logi Basic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hauler
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hauler
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/hauler/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fittings/hauler/fast-align/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fast Align
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Missions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Missions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../missions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../missions/security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Security
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../missions/mining/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mining
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../missions/distribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Epic Arcs
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Epic Arcs
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../missions/epic-arcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../missions/epic-arcs/the-blood-stained-stars/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Blood-Stained Stars
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../missions/epic-arcs/empire-epic-arcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Empire Epic Arcs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exploration
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Exploration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../exploration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../exploration/scanning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scanning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../exploration/hacking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hacking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../exploration/sites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relic & Data Sites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wormholes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Wormholes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wormholes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wormholes/basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wormholes/safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abyss
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Abyss
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abyss/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    zero-to-omega
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    zero-to-omega
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abyss/zero-to-omega/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abyss/zero-to-omega/step1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abyss/zero-to-omega/step2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abyss/zero-to-omega/step3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abyss/zero-to-omega/step4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Faction Warfare
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Faction Warfare
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faction-warfare/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faction-warfare/fw-basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faction-warfare/fw-sites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Industry
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Industry
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../industry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mining
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mining
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../industry/mining/mining-basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../industry/mining/ores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../industry/mining/ice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../industry/mining/gas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../industry/mining/mining-waste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Waste
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../industry/mining/mining-critical-hits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Critical-Hits
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_3" id="__nav_10_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Production
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Production
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../industry/production/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_4" id="__nav_10_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../industry/research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_5" id="__nav_10_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planetary Interaction
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planetary Interaction
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../industry/planetary-interaction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../industry/reactions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Links
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Links
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/maps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/market/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Market
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/fitting-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fitting Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/killboards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Killboards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/forums/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forums
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/discord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/calculators/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calculators
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#grundregel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grundregel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#align" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Align
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#warp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warp
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#warp-at-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warp at 0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#warp-at-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warp at range
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jump" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jump
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hold" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hold
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hold-cloak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hold cloak
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#break-cloak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Break cloak
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anchor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anchor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#orbit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orbit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keep-at-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Keep at range
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Approach
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#burn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Burn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#burn-back" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Burn back
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prop-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prop on
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prop-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prop off
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mwd-on-ab-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MWD on / AB on
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stop
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jump-on-contact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jump on contact
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#take-gate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Take gate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hold-on-gate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hold on gate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broadcast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Broadcast
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broadcast-for-reps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Broadcast for reps
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yellow-box" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Yellow box
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#red-box" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Red box
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#primary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Primary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secondary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Secondary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tertiary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tertiary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Switch
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lock-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lock up
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#point" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Point
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scram
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tackle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tackle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spread-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spread points
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tackle-the-pod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tackle the pod
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overheat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overheat
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overheat-prop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overheat prop
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overheat-guns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overheat guns
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deaggress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deaggress
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disengage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disengage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regroup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regroup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bounce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bounce
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crash-gate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crash gate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check check
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hold-comms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hold comms
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free fire
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cease-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cease fire
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-burn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free burn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Desti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kurzfassung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kurzfassung
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="typische-flottenbefehle">Typische Flottenbefehle<a class="headerlink" href="#typische-flottenbefehle" title="Permanent link">&para;</a></h1>
+<p>In Fleets in <strong>EVE Online</strong> werden viele Befehle und Ansagen auf Englisch gegeben.<br />
+Gerade für neue Spieler ist oft nicht sofort klar, was genau gemeint ist.</p>
+<p>Diese Seite erklärt typische Flottenbefehle mit:</p>
+<ul>
+<li>dem englischen Begriff</li>
+<li>der deutschen Übersetzung</li>
+<li>der praktischen Bedeutung im Fleet-Alltag</li>
+</ul>
+<p>Wichtig dabei:<br />
+Nicht jede Corp oder jeder FC nutzt exakt dieselben Formulierungen.<br />
+Die Grundbedeutung ist aber meistens sehr ähnlich.</p>
+<hr />
+<h2 id="grundregel">Grundregel<a class="headerlink" href="#grundregel" title="Permanent link">&para;</a></h2>
+<p>Wenn du in einer Fleet einen Befehl nicht sofort verstehst, gilt meistens:</p>
+<ul>
+<li>ruhig bleiben</li>
+<li>nichts Eigenes improvisieren</li>
+<li>an den FC, Anchor oder die Hauptgruppe halten</li>
+<li>wenn nötig kurz nachfragen, aber nicht in hektischen Situationen alles vollreden</li>
+</ul>
+<hr />
+<h2 id="align">Align<a class="headerlink" href="#align" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Align<br />
+<strong>Deutsch:</strong> Ausrichten / in Warp-Richtung ausrichten<br />
+<strong>Bedeutung:</strong><br />
+Du sollst dein Schiff auf ein bestimmtes Ziel ausrichten, zum Beispiel auf ein Gate, einen Planet, einen Safe oder ein anderes Objekt.</p>
+<p>Das bedeutet <strong>nicht</strong>, dass du schon warpen sollst.<br />
+Du bringst dein Schiff nur in die richtige Richtung, damit du bei einem Warp-Befehl sofort los kannst.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>Ziel anwählen</li>
+<li><code>Align To</code> ausführen</li>
+<li>nicht selbst warpen</li>
+</ul>
+<hr />
+<h2 id="warp">Warp<a class="headerlink" href="#warp" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Warp<br />
+<strong>Deutsch:</strong> Warpen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst sofort auf das genannte Ziel warpen.</p>
+<p>Oft kommt das zusammen mit Angaben wie:</p>
+<ul>
+<li><code>Warp to gate</code></li>
+<li><code>Warp to sun</code></li>
+<li><code>Warp to XXX at 0</code></li>
+<li><code>Warp to XXX at range</code></li>
+</ul>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>direkt warpen</li>
+<li>nicht erst lange überlegen</li>
+<li>auf Entfernung achten, wenn eine Range genannt wurde</li>
+</ul>
+<hr />
+<h2 id="warp-at-0">Warp at 0<a class="headerlink" href="#warp-at-0" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Warp at 0<br />
+<strong>Deutsch:</strong> Auf 0 warpen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst direkt auf das Ziel ohne Abstand warpen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>du landest möglichst direkt am Ziel</li>
+<li>oft bei Gates, Stations oder direkten Fleet-Moves genutzt</li>
+</ul>
+<hr />
+<h2 id="warp-at-range">Warp at range<a class="headerlink" href="#warp-at-range" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Warp at range<br />
+<strong>Deutsch:</strong> Auf Abstand warpen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst mit Abstand zum Ziel warpen, zum Beispiel auf 10, 20, 50 oder 100 km.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>nicht einfach auf 0 warpen</li>
+<li>die genannte Distanz genau beachten</li>
+</ul>
+<hr />
+<h2 id="jump">Jump<a class="headerlink" href="#jump" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Jump<br />
+<strong>Deutsch:</strong> Springen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst durch ein Gate springen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>wenn du direkt am Gate bist: springen</li>
+<li>wenn du noch nicht da bist: erst hin, dann springen</li>
+<li>kein unnötiges Stehenbleiben</li>
+</ul>
+<hr />
+<h2 id="hold">Hold<a class="headerlink" href="#hold" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Hold<br />
+<strong>Deutsch:</strong> Halten / Stopp<br />
+<strong>Bedeutung:</strong><br />
+Du sollst auf deine aktuelle Position oder deinen aktuellen Zustand achten und <strong>nichts weiter tun</strong>, bis ein neuer Befehl kommt.</p>
+<p>Je nach Situation kann das heißen:</p>
+<ul>
+<li>nicht springen</li>
+<li>nicht warpen</li>
+<li>nicht vorfliegen</li>
+<li>nicht aggressen</li>
+<li>nicht selbstständig umpositionieren</li>
+</ul>
+<p><strong>Praktisch heißt das:</strong><br />
+erstmal nichts Neues machen.</p>
+<hr />
+<h2 id="hold-cloak">Hold cloak<a class="headerlink" href="#hold-cloak" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Hold cloak<br />
+<strong>Deutsch:</strong> Tarnung halten<br />
+<strong>Bedeutung:</strong><br />
+Nach einem Gate-Sprung sollst du deine automatische Gate-Tarnung nicht sofort auflösen.</p>
+<p>Das ist besonders wichtig, wenn die Fleet erst Lage prüfen oder gesammelt agieren will.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>nach dem Sprung nichts klicken</li>
+<li>nicht bewegen</li>
+<li>keine Module aktivieren</li>
+<li>Tarnung so lange halten, bis neuer Befehl kommt</li>
+</ul>
+<hr />
+<h2 id="break-cloak">Break cloak<a class="headerlink" href="#break-cloak" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Break cloak<br />
+<strong>Deutsch:</strong> Tarnung aufheben<br />
+<strong>Bedeutung:</strong><br />
+Du sollst deine Tarnung aktiv beenden.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>bewegen oder einen Befehl ausführen</li>
+<li>danach weitere Anweisungen beachten</li>
+</ul>
+<hr />
+<h2 id="anchor">Anchor<a class="headerlink" href="#anchor" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Anchor<br />
+<strong>Deutsch:</strong> Ankern / an jemandem dranhängen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst dich an einem bestimmten Schiff orientieren und dessen Bewegung folgen.</p>
+<p>Oft ist das:</p>
+<ul>
+<li>der FC</li>
+<li>ein bestimmter Anchor</li>
+<li>ein Logi Anchor</li>
+<li>ein Speed Anchor</li>
+</ul>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>das genannte Schiff auswählen</li>
+<li><code>Keep at Range</code> oder <code>Orbit</code> je nach Vorgabe</li>
+<li>nicht selbst wild herumfliegen</li>
+</ul>
+<hr />
+<h2 id="orbit">Orbit<a class="headerlink" href="#orbit" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Orbit<br />
+<strong>Deutsch:</strong> Umkreisen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst ein Ziel oder einen Anchor in einer bestimmten Distanz umkreisen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>Orbit-Befehl auf das genannte Ziel</li>
+<li>richtige Distanz beachten</li>
+</ul>
+<hr />
+<h2 id="keep-at-range">Keep at range<a class="headerlink" href="#keep-at-range" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Keep at range<br />
+<strong>Deutsch:</strong> Abstand halten<br />
+<strong>Bedeutung:</strong><br />
+Du sollst einen bestimmten Abstand zu einem Ziel halten, ohne es zu umkreisen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>oft ruhiger und kontrollierter als Orbit</li>
+<li>besonders nützlich bei Anchors oder bestimmten Waffenprofilen</li>
+</ul>
+<hr />
+<h2 id="approach">Approach<a class="headerlink" href="#approach" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Approach<br />
+<strong>Deutsch:</strong> Anfliegen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst direkt auf ein Ziel zufliegen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>geradlinig auf das Ziel zu</li>
+<li>oft bei Gates, Zielen oder beim schnellen Annähern</li>
+</ul>
+<hr />
+<h2 id="burn">Burn<a class="headerlink" href="#burn" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Burn<br />
+<strong>Deutsch:</strong> Schnell hinfliegen / voll drauf zufliegen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst zügig und meist mit Propmod auf ein Ziel, eine Position oder aus einer Situation heraus fliegen.</p>
+<p>Das ist stärker als ein normales <code>Approach</code>.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>oft MWD oder AB an</li>
+<li>schnell Strecke machen</li>
+<li>meist ohne langes Zögern</li>
+</ul>
+<hr />
+<h2 id="burn-back">Burn back<a class="headerlink" href="#burn-back" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Burn back<br />
+<strong>Deutsch:</strong> Zurückbrennen / zurück zum Gate fliegen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst schnell zurück zu einer Position, meistens zu einem Gate.</p>
+<p>Das wird oft gesagt, wenn man nach einem schlechten Sprung zurück ans Gate will, um wieder zu springen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>sofort zurück zur genannten Position</li>
+<li>meistens Propmod an</li>
+<li>keine Umwege</li>
+</ul>
+<hr />
+<h2 id="prop-on">Prop on<a class="headerlink" href="#prop-on" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Prop on<br />
+<strong>Deutsch:</strong> Propmod an<br />
+<strong>Bedeutung:</strong><br />
+Du sollst deinen Afterburner oder Microwarpdrive einschalten.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>AB oder MWD aktivieren</li>
+<li>oft für schnelles Positionieren</li>
+</ul>
+<hr />
+<h2 id="prop-off">Prop off<a class="headerlink" href="#prop-off" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Prop off<br />
+<strong>Deutsch:</strong> Propmod aus<br />
+<strong>Bedeutung:</strong><br />
+Du sollst dein Propulsion Module ausschalten.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>AB oder MWD wieder aus</li>
+<li>oft wichtig für Signatur, Kontrolle oder Cap</li>
+</ul>
+<hr />
+<h2 id="mwd-on-ab-on">MWD on / AB on<a class="headerlink" href="#mwd-on-ab-on" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> MWD on / AB on<br />
+<strong>Deutsch:</strong> MWD an / Afterburner an<br />
+<strong>Bedeutung:</strong><br />
+Du sollst gezielt das genannte Propmod aktivieren.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>genau das genannte Modul einschalten</li>
+<li>nicht verwechseln</li>
+</ul>
+<hr />
+<h2 id="stop">Stop<a class="headerlink" href="#stop" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Stop<br />
+<strong>Deutsch:</strong> Stoppen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst dein Schiff abbremsen und keine weitere aktive Flugbewegung ausführen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li><code>Stop Ship</code></li>
+<li>keine eigene Umpositionierung</li>
+</ul>
+<hr />
+<h2 id="jump-on-contact">Jump on contact<a class="headerlink" href="#jump-on-contact" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Jump on contact<br />
+<strong>Deutsch:</strong> Bei Kontakt springen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst springen, sobald ein Gegner, Scout oder eine bestimmte Situation eintritt.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>aufmerksam bleiben</li>
+<li>nicht zu früh springen</li>
+<li>auf das Ereignis warten</li>
+</ul>
+<hr />
+<h2 id="take-gate">Take gate<a class="headerlink" href="#take-gate" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Take gate<br />
+<strong>Deutsch:</strong> Gate nehmen / durch das Gate gehen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst das Gate aktiv benutzen.</p>
+<p>Das ist praktisch fast gleichbedeutend mit <code>Jump</code>, klingt aber etwas umgangssprachlicher.</p>
+<hr />
+<h2 id="hold-on-gate">Hold on gate<a class="headerlink" href="#hold-on-gate" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Hold on gate<br />
+<strong>Deutsch:</strong> Am Gate halten<br />
+<strong>Bedeutung:</strong><br />
+Du sollst am Gate bleiben und nicht springen, bis ein weiterer Befehl kommt.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>am Gate stehen bleiben</li>
+<li>nicht vorzeitig springen</li>
+<li>auf weitere Ansage warten</li>
+</ul>
+<hr />
+<h2 id="broadcast">Broadcast<a class="headerlink" href="#broadcast" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Broadcast<br />
+<strong>Deutsch:</strong> Broadcast senden / melden<br />
+<strong>Bedeutung:</strong><br />
+Du sollst etwas über das Fleet-Broadcast-System melden, meistens:</p>
+<ul>
+<li>Armor</li>
+<li>Shield</li>
+<li>Cap</li>
+<li>Position</li>
+<li>Ziel</li>
+</ul>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>richtigen Broadcast nutzen</li>
+<li>nicht nur im Voice sagen</li>
+<li>besonders wichtig für Logi-Unterstützung</li>
+</ul>
+<hr />
+<h2 id="broadcast-for-reps">Broadcast for reps<a class="headerlink" href="#broadcast-for-reps" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Broadcast for reps<br />
+<strong>Deutsch:</strong> Reps anfordern<br />
+<strong>Bedeutung:</strong><br />
+Wenn du Schaden bekommst, sollst du aktiv Reparaturhilfe anfordern.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>passenden Broadcast drücken</li>
+<li>früh genug machen</li>
+<li>nicht erst im letzten Moment</li>
+</ul>
+<hr />
+<h2 id="yellow-box">Yellow box<a class="headerlink" href="#yellow-box" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Yellow box<br />
+<strong>Deutsch:</strong> Gelb gelockt / Gegner zielt auf dich<br />
+<strong>Bedeutung:</strong><br />
+Ein Gegner hat dich aufgeschaltet, aber noch nicht unbedingt aktiv Schaden gemacht.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>aufmerksam werden</li>
+<li>ggf. vorbereiten zu broadcasten</li>
+<li>je nach Rolle reagieren</li>
+</ul>
+<hr />
+<h2 id="red-box">Red box<a class="headerlink" href="#red-box" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Red box<br />
+<strong>Deutsch:</strong> Rot gelockt / du wirst aktiv angegriffen<br />
+<strong>Bedeutung:</strong><br />
+Ein Gegner greift dich aktiv an.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>sofort aufmerksam werden</li>
+<li>ggf. broadcasten</li>
+<li>FC-/Logi-Anweisungen folgen</li>
+</ul>
+<hr />
+<h2 id="primary">Primary<a class="headerlink" href="#primary" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Primary<br />
+<strong>Deutsch:</strong> Primärziel<br />
+<strong>Bedeutung:</strong><br />
+Das ist das Hauptziel, auf das die Fleet zuerst schießen soll.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>nur dieses Ziel priorisieren</li>
+<li>nicht einfach eigene Ziele wählen</li>
+</ul>
+<hr />
+<h2 id="secondary">Secondary<a class="headerlink" href="#secondary" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Secondary<br />
+<strong>Deutsch:</strong> Sekundärziel<br />
+<strong>Bedeutung:</strong><br />
+Das nächste Ziel nach dem Primary.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>im Kopf behalten</li>
+<li>aber zuerst weiter Primary schießen</li>
+</ul>
+<hr />
+<h2 id="tertiary">Tertiary<a class="headerlink" href="#tertiary" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Tertiary<br />
+<strong>Deutsch:</strong> Drittes Ziel<br />
+<strong>Bedeutung:</strong><br />
+Das dritte vorbereitete Ziel.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>für Folgewechsel bereithalten</li>
+<li>Fokus bleibt trotzdem erst auf Primary</li>
+</ul>
+<hr />
+<h2 id="switch">Switch<a class="headerlink" href="#switch" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Switch<br />
+<strong>Deutsch:</strong> Zielwechsel<br />
+<strong>Bedeutung:</strong><br />
+Du sollst auf ein anderes Ziel wechseln.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>sofort das neue Ziel anwählen</li>
+<li>Waffen / Drones ggf. umsetzen</li>
+</ul>
+<hr />
+<h2 id="lock-up">Lock up<a class="headerlink" href="#lock-up" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Lock up<br />
+<strong>Deutsch:</strong> Aufschalten / locken<br />
+<strong>Bedeutung:</strong><br />
+Du sollst ein oder mehrere genannte Ziele aufschalten.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>Ziel locken</li>
+<li>noch nicht automatisch feuern, wenn nichts dazu gesagt wurde</li>
+</ul>
+<hr />
+<h2 id="point">Point<a class="headerlink" href="#point" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Point<br />
+<strong>Deutsch:</strong> Point / Warp Disruptor drauf<br />
+<strong>Bedeutung:</strong><br />
+Das Ziel ist mit einem Warp Disruptor festgehalten oder soll festgehalten werden.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>Ziel kann nicht einfach warpen</li>
+<li>oft sagt man auch „I have point“</li>
+</ul>
+<hr />
+<h2 id="scram">Scram<a class="headerlink" href="#scram" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Scram<br />
+<strong>Deutsch:</strong> Scram / Warp Scrambler drauf<br />
+<strong>Bedeutung:</strong><br />
+Das Ziel ist mit einem Warp Scrambler festgehalten.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>stärkeres Tackle auf kurzer Distanz</li>
+<li>kann oft auch MWDs abschalten</li>
+</ul>
+<hr />
+<h2 id="web">Web<a class="headerlink" href="#web" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Web<br />
+<strong>Deutsch:</strong> Web / Stasis Webifier drauf<br />
+<strong>Bedeutung:</strong><br />
+Das Ziel wird verlangsamt.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>hilft beim Halten</li>
+<li>hilft gegen schnelle Ziele</li>
+<li>oft in Kombination mit Point oder Scram</li>
+</ul>
+<hr />
+<h2 id="tackle">Tackle<a class="headerlink" href="#tackle" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Tackle<br />
+<strong>Deutsch:</strong> Festhalten / tacklen<br />
+<strong>Bedeutung:</strong><br />
+Das Ziel soll am Wegwarpen gehindert werden und möglichst kontrolliert bleiben.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>Point / Scram / Web je nach Rolle einsetzen</li>
+<li>Ziel nicht entkommen lassen</li>
+</ul>
+<hr />
+<h2 id="spread-points">Spread points<a class="headerlink" href="#spread-points" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Spread points<br />
+<strong>Deutsch:</strong> Punkte verteilen<br />
+<strong>Bedeutung:</strong><br />
+Tackler sollen nicht alle dasselbe Ziel pointen, sondern mehrere Ziele gleichzeitig abdecken.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>Ziele aufteilen</li>
+<li>kurz kommunizieren</li>
+<li>nicht doppelt und dreifach alles auf ein Ziel legen, wenn es nicht nötig ist</li>
+</ul>
+<hr />
+<h2 id="tackle-the-pod">Tackle the pod<a class="headerlink" href="#tackle-the-pod" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Tackle the pod<br />
+<strong>Deutsch:</strong> Pod festhalten<br />
+<strong>Bedeutung:</strong><br />
+Nach dem Schiff soll auch die Capsule festgehalten werden.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>sehr schnell reagieren</li>
+<li>oft nur für schnelle Tackler realistisch</li>
+</ul>
+<hr />
+<h2 id="overheat">Overheat<a class="headerlink" href="#overheat" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Overheat<br />
+<strong>Deutsch:</strong> Überhitzen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst bestimmte Module oder Waffen überhitzen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>gezielt machen</li>
+<li>nicht dauerhaft ohne Sinn</li>
+<li>auf Hitzeschaden achten</li>
+</ul>
+<hr />
+<h2 id="overheat-prop">Overheat prop<a class="headerlink" href="#overheat-prop" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Overheat prop<br />
+<strong>Deutsch:</strong> Propmod überhitzen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst AB oder MWD überhitzen, um kurzfristig schneller zu sein.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>besonders bei Tackle, Burn oder Escape wichtig</li>
+</ul>
+<hr />
+<h2 id="overheat-guns">Overheat guns<a class="headerlink" href="#overheat-guns" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Overheat guns<br />
+<strong>Deutsch:</strong> Waffen überhitzen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst kurzzeitig mehr Schaden oder Druck erzeugen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>gezielt auf Ansage</li>
+<li>Wärme im Blick behalten</li>
+</ul>
+<hr />
+<h2 id="deaggress">Deaggress<a class="headerlink" href="#deaggress" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Deaggress<br />
+<strong>Deutsch:</strong> Aggression beenden<br />
+<strong>Bedeutung:</strong><br />
+Du sollst aufhören zu schießen oder aggressive Module zu nutzen, damit bestimmte Spielmechaniken wieder möglich werden.</p>
+<p>Oft wichtig bei:</p>
+<ul>
+<li>Gate-Situationen</li>
+<li>Docking</li>
+<li>Rückzug</li>
+</ul>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>Waffen aus</li>
+<li>keine neue Aggression starten</li>
+<li>Timer beachten</li>
+</ul>
+<hr />
+<h2 id="bail">Bail<a class="headerlink" href="#bail" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Bail<br />
+<strong>Deutsch:</strong> Raus / Rückzug / abhauen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst dich zurückziehen oder aus der Situation lösen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>nicht weiter committen</li>
+<li>Überleben priorisieren</li>
+<li>oft ausrichten und raus</li>
+</ul>
+<hr />
+<h2 id="disengage">Disengage<a class="headerlink" href="#disengage" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Disengage<br />
+<strong>Deutsch:</strong> Kampf lösen / disengagen<br />
+<strong>Bedeutung:</strong><br />
+Die Fleet soll sich vom Kampf trennen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>nicht weiter brawlen</li>
+<li>Abstand schaffen</li>
+<li>neuen Befehl abwarten</li>
+</ul>
+<hr />
+<h2 id="regroup">Regroup<a class="headerlink" href="#regroup" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Regroup<br />
+<strong>Deutsch:</strong> Neu sammeln<br />
+<strong>Bedeutung:</strong><br />
+Die Fleet soll sich wieder sammeln und ordnen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>zum Anchor oder Sammelpunkt</li>
+<li>nicht einzeln herumfliegen</li>
+<li>wieder Formation herstellen</li>
+</ul>
+<hr />
+<h2 id="bounce">Bounce<a class="headerlink" href="#bounce" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Bounce<br />
+<strong>Deutsch:</strong> Über ein Zwischenziel warpen / abprallen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst nicht direkt auf ein Ziel, sondern über ein anderes Objekt warpen, um besser zu positionieren.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>erst auf Zwischenziel</li>
+<li>dann weiter</li>
+<li>oft für sicheres oder besseres Re-Warping</li>
+</ul>
+<hr />
+<h2 id="crash-gate">Crash gate<a class="headerlink" href="#crash-gate" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Crash gate<br />
+<strong>Deutsch:</strong> Gate crashen / zurück ans Gate und springen<br />
+<strong>Bedeutung:</strong><br />
+Du sollst schnell genug zurück zum Gate kommen, um wieder durchzuspringen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>direkt zurück zum Gate</li>
+<li>meist Propmod an</li>
+<li>möglichst nicht vorher sterben</li>
+</ul>
+<hr />
+<h2 id="check-check">Check check<a class="headerlink" href="#check-check" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Check check<br />
+<strong>Deutsch:</strong> Ruhe / still jetzt<br />
+<strong>Bedeutung:</strong><br />
+Sofortige Ruhe im Comms.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>nicht weiterreden</li>
+<li>nur wichtige Ansagen</li>
+<li>FC oder wichtiger Call hat Vorrang</li>
+</ul>
+<hr />
+<h2 id="hold-comms">Hold comms<a class="headerlink" href="#hold-comms" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Hold comms<br />
+<strong>Deutsch:</strong> Comms ruhig halten<br />
+<strong>Bedeutung:</strong><br />
+Im Sprachkanal soll jetzt nur noch das Nötigste gesagt werden.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>keine Nebengespräche</li>
+<li>nur relevante Meldungen</li>
+</ul>
+<hr />
+<h2 id="free-fire">Free fire<a class="headerlink" href="#free-fire" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Free fire<br />
+<strong>Deutsch:</strong> Freies Feuer<br />
+<strong>Bedeutung:</strong><br />
+Du darfst Ziele eigenständig wählen oder ohne enge Zielvorgabe schießen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>trotzdem sinnvoll priorisieren</li>
+<li>nicht chaotisch werden</li>
+</ul>
+<hr />
+<h2 id="cease-fire">Cease fire<a class="headerlink" href="#cease-fire" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Cease fire<br />
+<strong>Deutsch:</strong> Feuer einstellen<br />
+<strong>Bedeutung:</strong><br />
+Sofort nicht mehr schießen.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>Waffen stoppen</li>
+<li>keine neue Aggression aufbauen</li>
+</ul>
+<h2 id="free-burn">Free burn<a class="headerlink" href="#free-burn" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Free burn<br />
+<strong>Deutsch:</strong> Frei bewegen / frei fliegen / frei Position beziehen<br />
+<strong>Bedeutung:</strong><br />
+Du darfst dich eigenständig bewegen und musst nicht strikt auf Anchor oder Formation bleiben.</p>
+<p>Das heißt aber <strong>nicht</strong>, dass du komplett planlos irgendwohin fliegen sollst.<br />
+Meist bedeutet es eher, dass du innerhalb der Situation selbst sinnvoll manövrieren sollst.</p>
+<p><strong>Praktisch heißt das:</strong>  </p>
+<ul>
+<li>selbstständig gute Position suchen</li>
+<li>trotzdem in Reichweite und im Kontext der Fleet bleiben</li>
+<li>nicht unnötig isolieren</li>
+<li>auf neue Befehle achten</li>
+</ul>
+<p><strong>Typische Nutzung:</strong>  </p>
+<ul>
+<li>wenn starres Ankern gerade nicht nötig ist</li>
+<li>bei lockerer Bewegung im Grid</li>
+<li>wenn einzelne Schiffe selbst Raum gewinnen oder Abstand halten sollen</li>
+</ul>
+<hr />
+<h2 id="desti">Desti<a class="headerlink" href="#desti" title="Permanent link">&para;</a></h2>
+<p><strong>Englisch:</strong> Desti<br />
+<strong>Deutsch:</strong> Ziel / Zielort / Destination<br />
+<strong>Bedeutung:</strong><br />
+<code>Desti</code> ist meistens einfach eine verkürzte Form von <strong>Destination</strong>.</p>
+<p>Je nach Kontext kann damit gemeint sein:</p>
+<ul>
+<li>das nächste Gate</li>
+<li>das nächste Zielsystem</li>
+<li>der Sammelpunkt</li>
+<li>das Objekt, auf das ausgerichtet oder gewarpt werden soll</li>
+</ul>
+<p><strong>Praktisch heißt das:</strong><br />
+Wenn jemand sagt,<br />
+<code>align desti</code><br />
+oder<br />
+<code>warp to desti</code>,<br />
+dann ist mit <code>desti</code> normalerweise das vorher festgelegte Ziel oder der nächste Bewegungsort gemeint.</p>
+<p><strong>Wichtig:</strong><br />
+Die genaue Bedeutung hängt stark vom Kontext der Fleet ab.<br />
+Oft ist <code>desti</code> einfach das, was gerade als nächstes Ziel für die Bewegung feststeht.</p>
+<hr />
+<h2 id="kurzfassung">Kurzfassung<a class="headerlink" href="#kurzfassung" title="Permanent link">&para;</a></h2>
+<p>Die wichtigsten Flottenbefehle drehen sich meist um:</p>
+<ul>
+<li>Bewegung</li>
+<li>Positionierung</li>
+<li>Zielauswahl</li>
+<li>Tackle</li>
+<li>Disziplin</li>
+<li>Kommunikation</li>
+</ul>
+<p>Wer diese Begriffe kennt, versteht Fleets deutlich schneller und macht weniger typische Anfängerfehler.</p>
+<p>Gerade am Anfang sind vor allem diese Befehle besonders wichtig:</p>
+<ul>
+<li>Align</li>
+<li>Warp</li>
+<li>Jump</li>
+<li>Hold</li>
+<li>Anchor</li>
+<li>Primary</li>
+<li>Broadcast for reps</li>
+<li>Point</li>
+<li>Scram</li>
+<li>Prop on / Prop off</li>
+<li>Overheat</li>
+<li>Regroup</li>
+<li>Hold cloak</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
